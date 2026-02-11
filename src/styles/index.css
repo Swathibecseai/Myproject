@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  @apply w-full px-4 py-2 rounded-xl bg-white/70
+  border border-white/40 backdrop-blur-md
+  focus:outline-none focus:ring-2 focus:ring-blue-400 transition;
+}
+
+.btn-primary {
+  @apply w-full py-2 rounded-xl bg-gradient-to-r
+  from-blue-500 to-indigo-600 text-white
+  hover:shadow-lg hover:shadow-blue-400/40 transition;
+}
+
+.btn-secondary {
+  @apply w-full py-2 rounded-xl border bg-white/70
+  hover:bg-white transition;
+}
